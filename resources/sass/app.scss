@@ -1,0 +1,62 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+//@import 'bootstrap/scss/bootstrap';
+
+.dropdown-menu {
+    //font-size: 13px;
+}
+.dropdown-submenu {
+    position: relative;
+    &:hover {
+        &>.dropdown-menu {
+            display: block;
+        }
+    }
+
+    .dropdown-menu {
+        right: 160px;
+    }
+}
+
+.card-img-top {
+    display: inline-block;
+    max-height: 240px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.over-errors {
+    ul {
+        padding-left: 30px;
+    }
+}
+
+.product-single {
+    margin-top: 35px;
+
+    .images {
+        .first {
+            text-align: center;
+        }
+
+        a {
+            display: inline-block;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            margin: 10px;
+
+            &:first-child {
+                margin: 0 auto;
+            }
+        }
+    }
+}
