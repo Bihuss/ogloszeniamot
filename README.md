@@ -23,20 +23,13 @@
     <li>Zarządzanie ogłoszeniami przez administratora (usuwanie, edycja).</li>
 </ul>
 
-<h2>Instalacja</h2>
-<p>Aby uruchomić projekt lokalnie, wykonaj poniższe kroki:</p>
-<ol>
-    <li>Sklonuj repozytorium:
-        <pre><code>git clone https://github.com/twoje-uzytkownik/alemoto.git</code></pre>
-    </li>
-    <li>Przejdź do folderu projektu:
-        <pre><code>cd alemoto</code></pre>
-    </li>
-    <li>Zainstaluj zależności przy użyciu Composer:
-        <pre><code>composer install</code></pre>
-    </li>
-    <li>Skopiuj plik konfiguracyjny .env:
+
         <pre><code>cp .env.example .env</code></pre>
     </li>
     <li>Skonfiguruj połączenie z bazą danych w pliku <code>.env</code>:
         <pre><code>
+
+---
+
+Jeśli masz pytania lub sugestie, zapraszam do kontaktu.
+
