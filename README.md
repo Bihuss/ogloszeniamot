@@ -23,12 +23,6 @@
     <li>Zarządzanie ogłoszeniami przez administratora (usuwanie, edycja).</li>
 </ul>
 
-
-        <pre><code>cp .env.example .env</code></pre>
-    </li>
-    <li>Skonfiguruj połączenie z bazą danych w pliku <code>.env</code>:
-        <pre><code>
-
 ---
 
 Jeśli masz pytania lub sugestie, zapraszam do kontaktu.
